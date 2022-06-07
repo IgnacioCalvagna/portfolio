@@ -1,0 +1,38 @@
+@media (max-width: 600px) {
+  .aboutMe{
+    margin:10%; 
+  }
+  .contactMe{
+    margin-top: 15%;
+  }
+  .miHeader{
+    width: 100%;
+    margin:0 auto;
+  }
+}
+.App {
+  text-align: center;
+}
+
+.card{
+  color:black
+}
+.miHeader{
+  width: 85%;
+  margin:0 auto;
+}
+.aboutMe{
+  margin:10%;
+}
+.misProyexts{
+  margin-bottom: 5%;
+}
+.infoMe{
+  display: flex;
+  width: 100%;
+  margin-top: 10%;
+}
+.contactMe{
+  width: 80%;
+  margin-top: 9%;
+}

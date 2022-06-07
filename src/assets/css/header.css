@@ -1,0 +1,22 @@
+.algo{
+    background-image: url(/Users/ignaciocalvagna/porro420/portfolio/portfolio/src/assets/img/fondo1.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    padding: 18%;
+}
+.sobreMi{
+    font-size: x-large;
+}
+@media (max-width: 600px) {
+    .algo{
+        background-image: url(/Users/ignaciocalvagna/porro420/portfolio/portfolio/src/assets/img/fondo1.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        /* position: absolute; */
+        padding: 8%;
+        width: 100%;
+    }
+}
