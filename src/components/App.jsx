@@ -7,15 +7,16 @@ import ContactMe from "./ContactMe";
 import Proyects from "./Proyects";
 import AboutMe from "./AboutMe";
 import Footer from "./Footer";
+import { useEffect } from "react";
 
 function App() {
   return (
     <>
       <Navbar />
       <div className="App ">
-        <div className="miHeader">
+        {/* <div className="miHeader"> */}
           <Header />
-        </div>
+        {/* </div> */}
 
         <div id="aboutMe" className="aboutMe">
           <AboutMe />
@@ -29,7 +30,13 @@ function App() {
         </div>
 
         <div id="contactMe" className="contactMe container">
-          <ContactMe />
+        <div>
+            
+          </div>
+          <div className="contactComponent">
+            <ContactMe />
+          </div>
+          
         </div>
       </div>
       <Footer />

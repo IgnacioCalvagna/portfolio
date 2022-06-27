@@ -1,25 +1,20 @@
 {
   "proyectos": [
+   
     {
       "id": 1,
-      "titulo": "Tonic 3",
-      "img": "./assets/img/inWorking.jpg",
-      "description": "desarrollo de un e-commerce enfocado en un grow shop   "
-    },
-    {
-      "id": 2,
       "titulo": "Sativa & Co",
       "img": "./Users/ignaciocalvagna/porro420/portfolio/portfolio/src/assets/img/inWorking.jpg",
       "description": "Aplicacion desarrollada para Tonic 3 enfocada en la emision de eventos en vivo"
     },
     {
-      "id": 3,
+      "id": 2,
       "titulo": "Imas flight",
       "img": ["./assets/img/inWorking.jpg"],
       "description": "Desarrollo pensado para una empresa aeronautica privada "
     },
     {
-      "id": 4,
+      "id": 3,
       "titulo": "Satindica",
       "img": ["./assets/img/inWorking.jpg"],
       "description": "Pagina desarrollada para Satindica PERN"

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './assets/css/index.css';
+import "react-on-scroll-animation/build/index.css";
 import App from './components/App';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 

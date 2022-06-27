@@ -2,9 +2,12 @@ import React from "react";
 import "../assets/css/contactame.css";
 const ContactMe = () => {
   return (
-    <>
-    <h3>Contactame </h3>
-      <form className="miForm container">
+    <div className="container">
+      <h3>
+        Si te gusta mi trabajo, no dude en ponerse en contacto conmigo. Estoy
+        aquí para ayudarle a usted.
+      </h3>
+      <form className="miForm ">
         <div className="row">
           <div className="col-6">
             <label htmlFor="">Nombre</label>
@@ -60,7 +63,7 @@ const ContactMe = () => {
           </button>
         </div>
       </form>
-    </>
+    </div>
   );
 };
 

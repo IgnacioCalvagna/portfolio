@@ -1,13 +1,20 @@
 .algo{
-    background-image: url(/Users/ignaciocalvagna/porro420/portfolio/portfolio/src/assets/img/fondo1.jpeg);
+    background-image: url(/Users/ignaciocalvagna/porro420/portfolio/portfolio/src/assets/img/gif.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    box-shadow: 23em;
     
     padding: 18%;
 }
+.headDesc{
+    margin-bottom: 15%;
+    color:white;
+    position:top;
+}
 .sobreMi{
     font-size: x-large;
+    margin-top: 5%;
 }
 @media (max-width: 600px) {
     .algo{
