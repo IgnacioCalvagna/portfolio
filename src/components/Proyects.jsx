@@ -3,9 +3,9 @@ import data from "../data.json";
 import sativaCo from "../assets/img/proyectos/sativaCo.png";
 import "../assets/css/proyects.css";
 const Proyects = () => {
-  const misProyectos = data.proyectos.map((p) => {
+  const misProyectos = data.proyectos.map((p,i) => {
     return (
-      <div class="item-producto">
+      <div className="item-producto "key={i}>
         <div key={p.id} className="desc-producto">
           <h2>{p.titulo}</h2>
           algo para ver {p.id}
@@ -17,6 +17,8 @@ const Proyects = () => {
       </div>
     );
   });
+
+
   return (
     <div>
       {misProyectos}

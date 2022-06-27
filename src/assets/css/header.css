@@ -1,8 +1,8 @@
 .algo{
     background-image: url(/Users/ignaciocalvagna/porro420/portfolio/portfolio/src/assets/img/gif.gif);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+    background-attachment: fixed;
     box-shadow: 23em;
     
     padding: 18%;
@@ -17,13 +17,5 @@
     margin-top: 5%;
 }
 @media (max-width: 600px) {
-    .algo{
-        background-image: url(/Users/ignaciocalvagna/porro420/portfolio/portfolio/src/assets/img/fondo1.jpeg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        /* position: absolute; */
-        padding: 8%;
-        width: 100%;
-    }
+   
 }
